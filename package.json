@@ -9,7 +9,7 @@
   },
   "homepage": "https://github.com/wylovan/qti30Upgrader",
   "scripts": {
-    "xslt3": "xslt3 -xsl:qti2xTo30.xsl -export:qti2xTo30.sef.json -nogo"
+    "xslt3": "npx xslt3 -xsl:qti2xTo30.xsl -export:qti2xTo30.sef.json -nogo"
   },
   "repository": {
     "type": "git",
